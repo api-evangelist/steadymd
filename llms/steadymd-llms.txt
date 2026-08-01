@@ -1,0 +1,19 @@
+# SteadyMD
+
+> SteadyMD is a telehealth infrastructure and clinical-workforce company (a DocGo company) that provides board-certified clinicians, clinical operations, licensing/credentialing, and technology and APIs so healthcare and digital-health partners can launch branded virtual care across all 50 US states. Its telehealth APIs are available under a business agreement (documentation is gated behind a request form); there is no public developer portal or OpenAPI at this time.
+
+## About
+- [SteadyMD](https://www.steadymd.com): Company overview and telehealth platform.
+- [Technology Platform](https://www.steadymd.com/technology/): The platform behind branded virtual care experiences.
+- [Digital Clinic](https://www.steadymd.com/digital-clinic/): Turnkey clinical operations offering.
+
+## APIs
+- [Telehealth APIs](https://www.steadymd.com/telehealth-apis/): Capabilities include patient data submission, synchronous and asynchronous consult requests, two-way messaging, intake forms, clinician availability, status updates, attachments, scheduling/cancellation, and reporting/SLA retrieval. Two models: Limited API Integration (partner EMR) and Complete API Integration (SteadyMD EMR). Client libraries referenced for Ruby, Python, and JavaScript. API documentation is available on request via the site's "Request API Documentation" form.
+
+## Docs
+- [Contact / Request API Documentation](https://www.steadymd.com/contact-us/): Business gateway to API documentation and integration.
+- [Blog](https://www.steadymd.com/blog/): Company and telehealth-industry writing.
+
+## Legal
+- [Terms of Use](https://www.steadymd.com/terms-of-use/)
+- [Privacy Policy](https://docgo.com/privacy-policy)

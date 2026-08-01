@@ -1,8 +1,26 @@
 aid: steadymd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/steadymd.png
 name: SteadyMD
-description: 'SteadyMD is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'SteadyMD is a telehealth infrastructure and clinical-workforce company (a DocGo company)
+  backed by Lux Capital. It supplies board-certified physicians and nurse practitioners, clinical
+  operations, and 50-state licensing and credentialing, plus technology and telehealth APIs that let
+  healthcare and digital-health partners launch branded, fully managed virtual care. Its APIs cover
+  patient data submission, synchronous and asynchronous consult requests, two-way patient-clinician
+  messaging, intake forms, clinician availability, real-time status updates, document attachments,
+  scheduling, and reporting/SLA retrieval, offered as either a Limited (partner-EMR) or Complete
+  (SteadyMD-EMR) integration. API documentation is provided under a business agreement via a request
+  form; there is no public developer portal or OpenAPI at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/steadymd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Telehealth
+- Telemedicine
+- Virtual Care
+- Clinical Workforce
+- Health Tech
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.steadymd.com
+- type: Documentation
+  url: https://www.steadymd.com/telehealth-apis/
+- type: Support
+  url: https://www.steadymd.com/contact-us/
+- type: Blog
+  url: https://www.steadymd.com/blog/
+- type: TermsOfService
+  url: https://www.steadymd.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://docgo.com/privacy-policy
+- type: DomainSecurity
+  url: security/steadymd-domain-security.yml
+- type: LLMsTxt
+  url: llms/steadymd-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
